@@ -47,5 +47,5 @@ We welcome contributions! Feel free to open issues, submit pull requests, or pro
 
 ## License
 
-This project is licensed under the Free License - see the [LICENSE](LICENSE.txt) file for details.
+This project is licensed under the Free License - see the [LICENSE](LICENSE.md) file for details.
 
