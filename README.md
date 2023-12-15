@@ -19,8 +19,7 @@ Simplicial Neural Networks introduce a unique approach to neural network archite
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/snn-learning-layer.git
-    cd snn-learning-layer
+    git clone https://github.com/arminsbss/Simplicial-Neural-Network-accuracy-improvement.git
     ```
 
 2. Install dependencies:
