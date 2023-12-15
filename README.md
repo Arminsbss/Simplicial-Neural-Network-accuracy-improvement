@@ -1,4 +1,4 @@
-# Simplicial Neural Network (SNN) Learning Layer
+# Simplicial Neural Network (SNN) accuracy improvement
 
 ## Overview
 
