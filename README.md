@@ -26,10 +26,16 @@ Simplicial Neural Networks introduce a unique approach to neural network archite
 2. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    conda env create -f environment.yml
     ```
 
-3. Explore the Jupyter notebooks for detailed examples and experiments.
+3. After running this command, you can activate the new environment:
+
+    ```bash
+    conda activate snn
+    ```
+
+4. Explore the Jupyter notebooks for detailed examples and experiments.
 
 ## Results
 
