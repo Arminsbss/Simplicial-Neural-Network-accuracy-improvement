@@ -154,7 +154,7 @@ def main():
 
     print([float(len(masks[d]))/float(len(cochain_target_alldegs[d][0,0,:])) for d in range(0,2+1)])
 
-    for i in range(0, 1000):
+    for i in range(0, 4000):
         xs = [cochain_input.clone() for cochain_input in cochain_input_alldegs]
 
         optimizer.zero_grad()
