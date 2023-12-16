@@ -103,7 +103,7 @@ def main():
     network = MySCNN(colors = 1)
 
 
-    learning_rate = 0.001
+    learning_rate = 0.01
     optimizer = torch.optim.Adam(network.parameters(), lr=learning_rate)
     criterion = nn.L1Loss(reduction="sum")
     #criterion = nn.MSELoss(reduction="sum")
@@ -154,7 +154,7 @@ def main():
 
     print([float(len(masks[d]))/float(len(cochain_target_alldegs[d][0,0,:])) for d in range(0,2+1)])
 
-    for i in range(0, 4000):
+    for i in range(0, 1000):
         xs = [cochain_input.clone() for cochain_input in cochain_input_alldegs]
 
         optimizer.zero_grad()
