@@ -103,7 +103,7 @@ def main():
     network = MySCNN(colors = 1)
 
 
-    learning_rate = 0.01
+    learning_rate = 0.0001
     optimizer = torch.optim.Adam(network.parameters(), lr=learning_rate)
     criterion = nn.L1Loss(reduction="sum")
     #criterion = nn.MSELoss(reduction="sum")
